@@ -1,4 +1,4 @@
-bootstrap.servers=localhost:9092
+bootstrap.servers=node10:9092,node11:9092,node12:9092
 group.id=test
 enable.auto.commit=true
 key.deserializer=org.apache.kafka.common.serialization.StringDeserializer

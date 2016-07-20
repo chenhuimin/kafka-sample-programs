@@ -1,8 +1,8 @@
-bootstrap.servers=localhost:9092
+bootstrap.servers=node10:9092,node11:9092,node12:9092
 acks=all
+compression.type=lz4
 retries=0
 batch.size=16384
-auto.commit.interval.ms=1000
 linger.ms=0
 key.serializer=org.apache.kafka.common.serialization.StringSerializer
 value.serializer=org.apache.kafka.common.serialization.StringSerializer
